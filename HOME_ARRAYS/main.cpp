@@ -5,8 +5,8 @@ using namespace std;
 #define delimiter "\n-------------------\n"
 
 //#define PORYDOK
-//#define CLASS_WORK
-//#define HOME_WORK
+//#define 
+//#define 
 
 void main()
 {
@@ -58,27 +58,4 @@ void main()
 	}
 #endif // PORYDOK
 	
-	const int N = 3;
-	int A[N][N];
-
-	for (int i = 0; i < N; i++)
-	{
-		for (int j = 0; j < N; j++)
-		{
-			A[i][j] = rand() % 50;
-			
-		}
-	}
-
-	for (int i = 0; i < N; i++)
-	{
-		for (int j = 0; j < N; j++)
-		{
-			cout << A[i][j] << tab;
-		}
-		cout << endl;
-	}
-	cout << delimiter << endl;
-
-}
-
+	
